@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Primary Meta -->
 <title>A4 Consulting &mdash; Digital Growth Agency | Staten Island, NY</title>
-<meta name="description" content="A4 Consulting is a digital marketing agency based in Staten Island, NY. We build websites, run paid ads, set up AI automation, and publish the Staten Island Bulletin &mdash; a direct mail postcard reaching Tottenville, Huguenot &amp; Prince's Bay.">
+<meta name="description" content="A4 Consulting is a digital marketing agency based in Staten Island, NY. We build websites, run paid ads, set up AI automation, and publish the Staten Island Bulletin &mdash; a direct mail postcard reaching Tottenville, NY.">
 <meta name="author" content="A4 Consulting">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://a4businessconsulting.com/">
@@ -145,6 +145,15 @@ footer{padding:1.8rem 5%;border-top:0.5px solid var(--border);display:flex;justi
 .footer-copy{font-size:0.76rem;color:rgba(247,245,240,0.25);font-weight:300}
 @media(max-width:900px){.bulletin-inner{grid-template-columns:1fr}.bulletin-right{display:none}.services-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:768px){nav{padding:1rem 5%}.nav-links{display:none}#about{grid-template-columns:1fr;gap:3rem}.contact-inner{grid-template-columns:1fr;gap:3rem}.form-row{grid-template-columns:1fr}.about-stat-box{right:0;bottom:-1rem}.services-grid{grid-template-columns:1fr}}
+
+.bulletin-pricing{display:flex;align-items:center;gap:0;margin-bottom:1.6rem;border:0.5px solid var(--border);background:rgba(201,168,76,0.04)}
+.pricing-option{flex:1;padding:1.1rem 1.2rem;display:flex;flex-direction:column;gap:0.2rem;position:relative}
+.pricing-featured{border-left:0.5px solid var(--border);background:rgba(201,168,76,0.06)}
+.pricing-divider{width:0.5px;background:var(--border);align-self:stretch}
+.pricing-badge{font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:0.1rem}
+.pricing-label{font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white-dim);font-weight:400}
+.pricing-amount{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:var(--white);line-height:1.1}
+.pricing-note{font-size:0.7rem;color:rgba(247,245,240,0.35);font-weight:300}
 </style>
 </head>
 <body>
@@ -183,13 +192,27 @@ footer{padding:1.8rem 5%;border-top:0.5px solid var(--border);display:flex;justi
     <div class="bulletin-left">
       <span class="bulletin-tag">Now Accepting Features &mdash; Issue No. 01</span>
       <h2 class="bulletin-headline">Your Neighborhood<br>Is Already <em>Looking.</em><br>Make Sure They<br>Find You.</h2>
-      <p class="bulletin-body">The Staten Island Bulletin is a professionally printed 11x17 postcard mailed directly to homes in Tottenville, Huguenot, and Prince's Bay. No feeds. No algorithms. It lands in real hands.</p>
+      <p class="bulletin-body">The Staten Island Bulletin is a professionally printed 11x17 postcard mailed directly to homes in Tottenville, NY. No feeds. No algorithms. It lands in real hands.</p>
       <ul class="bulletin-perks">
         <li><strong>One business per category, 12 spots total.</strong> Your plumber isn't competing with three other plumbers. Once your category's taken, it's closed.</li>
         <li><strong>Physical mail people actually hold.</strong> Not a banner ad they scroll past &mdash; a printed piece that sits on the kitchen counter.</li>
         <li><strong>Built-in QR code on every ad.</strong> Scan straight to your website, your booking page, or wherever you want them to land.</li>
         <li><strong>Flat-rate pricing. No contracts, no commitment.</strong> Know exactly what you're paying before you sign anything. One issue at a time.</li>
       </ul>
+      <div class="bulletin-pricing">
+        <div class="pricing-option">
+          <span class="pricing-label">1 Issue</span>
+          <span class="pricing-amount">$400</span>
+          <span class="pricing-note">One-time, no commitment</span>
+        </div>
+        <div class="pricing-divider"></div>
+        <div class="pricing-option pricing-featured">
+          <span class="pricing-badge">Best Value</span>
+          <span class="pricing-label">3 Issues</span>
+          <span class="pricing-amount">$1,000</span>
+          <span class="pricing-note">Save $200 vs. monthly</span>
+        </div>
+      </div>
       <div class="bulletin-scarcity">
         <span class="scarcity-dot"></span>
         <span class="scarcity-text">12 of 12 spots open &mdash; Issue No. 01 now accepting features</span>
@@ -203,7 +226,7 @@ footer{padding:1.8rem 5%;border-top:0.5px solid var(--border);display:flex;justi
       <div class="paper-mock">
         <div class="paper-header">
           <div class="paper-title">Staten Island Bulletin</div>
-          <div class="paper-subtitle">Tottenville &nbsp;&middot;&nbsp; Huguenot &nbsp;&middot;&nbsp; Prince's Bay &nbsp;&middot;&nbsp; Issue No. 01</div>
+          <div class="paper-subtitle">Tottenville, NY &nbsp;&middot;&nbsp; Issue No. 01</div>
         </div>
         <div class="paper-side-label">Side A &mdash; Home Services</div>
         <div class="paper-grid">
@@ -305,7 +328,7 @@ footer{padding:1.8rem 5%;border-top:0.5px solid var(--border);display:flex;justi
     <div class="service-card"><div class="service-number">03</div><p class="service-name">AI Automation &amp; CRM Setup</p><p class="service-desc">AI receptionists and automated follow-up systems that capture every lead &mdash; even at 2am.</p></div>
     <div class="service-card"><div class="service-number">04</div><p class="service-name">Social Media Management</p><p class="service-desc">Consistent, professional content that builds trust and keeps your business top of mind every week.</p></div>
     <div class="service-card"><div class="service-number">05</div><p class="service-name">Cold Outreach Systems</p><p class="service-desc">Done-for-you prospecting pipelines that fill your calendar with qualified, ready-to-buy conversations.</p></div>
-    <div class="service-card"><div class="service-number">06</div><p class="service-name">The Staten Island Bulletin</p><p class="service-desc">A printed 11x17 postcard mailed to Tottenville, Huguenot &amp; Prince's Bay. 12 spots across Home Services &amp; Professional/Local categories. Flat-rate, no contracts.</p></div>
+    <div class="service-card"><div class="service-number">06</div><p class="service-name">The Staten Island Bulletin</p><p class="service-desc">A printed 11x17 postcard mailed to Tottenville, NY. 12 spots across Home Services &amp; Professional/Local categories. Flat-rate, no contracts.</p></div>
   </div>
 </section>
 
